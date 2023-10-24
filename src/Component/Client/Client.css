@@ -1,0 +1,373 @@
+.client {
+  width: 100%;
+  border-bottom: 1px solid var(--border-color);
+}
+.client_container-margin {
+  margin: 0 7.5vw;
+  padding: 0 21px 48px;
+  border-left: 1px solid var(--border-color);
+  border-right: 1px solid var(--border-color);
+}
+.client_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 102px 0 54px 0;
+}
+.client_text-container {
+  position: relative;
+}
+.client_arrow {
+  color: var(--main-text-color);
+  font-size: 2.2vw;
+  position: absolute;
+  left: -80px;
+}
+.client_text {
+  color: var(--text-color);
+  display: flex;
+  justify-content: flex-end;
+  font-size: 8vw;
+  font-weight: 100;
+}
+.main {
+  position: relative;
+}
+.client_topcover {
+  position: absolute;
+  top: -2px;
+  width: 100%;
+  z-index: 2;
+}
+.client_bottomcover {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 2;
+}
+.text_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.cards-container {
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+}
+.filterL {
+  position: absolute;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 27vw;
+  height: 100%;
+  top: 0px;
+  left: -17px;
+}
+.filterR {
+  position: absolute;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 27vw;
+  height: 100%;
+  top: 0;
+  right: -17px;
+}
+.card {
+  width: 100%;
+}
+.card img {
+  width: 25vw;
+  height: 42vw;
+  display: flex;
+  padding: 0 15px;
+  margin: 0 15px;
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(black, #95ff00, black) 1 100%;
+}
+.buttons {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.button {
+  margin-right: 20px;
+  width: 10vw;
+  height: 3.5vw;
+  border: 3px solid var(--main-text-color);
+  border-radius: 60px;
+  background-color: transparent;
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2vw;
+}
+.color_symbol {
+  color: var(--main-text-color);
+
+  margin: 5px;
+}
+.color_symbol-arrowL {
+  color: var(--main-text-color);
+  margin-right: 10px;
+}
+.color_symbol-arrowR {
+  color: var(--main-text-color);
+  margin-left: 10px;
+}
+
+@media (min-width: 2080px) and (max-width: 2370px) {
+  .filterL {
+    width: 33%;
+  }
+  .filterR {
+    width: 33%;
+  }
+}
+@media (min-width: 1750px) and (max-width: 2080px) {
+  .filterL {
+    width: 32.7%;
+  }
+  .filterR {
+    width: 32.7%;
+  }
+}
+@media (min-width: 1440px) and (max-width: 1750px) {
+  .filterL {
+    width: 32%;
+  }
+  .filterR {
+    width: 32%;
+  }
+}
+@media (min-width: 1201px) and (max-width: 1440px) {
+  .client_container {
+    padding: 80px 0 60px;
+  }
+  .client_arrow {
+    font-size: 28px;
+    top: -5px;
+  }
+  .client_cardbox-card {
+    width: 24vw;
+    height: 42vw;
+  }
+  .button-left {
+    width: 100px;
+    height: 36px;
+    border: 1px solid var(--main-text-color);
+    font-size: 13px;
+  }
+  .cardbox {
+    width: 24vw;
+  }
+  .client_container-margin {
+    padding: 0 18px 40px;
+    margin: 0 7.5vw;
+  }
+  .client_cardbox-card-lines {
+    width: 24vw;
+    height: 40vw;
+  }
+  .cardbox_text {
+    width: 15vw;
+  }
+  .filterL {
+    width: 31%;
+  }
+  .filterR {
+    width: 31%;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .client_container {
+    padding: 72px 0 38px;
+  }
+  .client_arrow {
+    font-size: 26px;
+    left: -70px;
+    top: -5px;
+  }
+  .client_cardbox-card {
+    width: 26vw;
+    height: 490px;
+  }
+  .client_cardbox-card-lines {
+    width: 274px;
+    margin-left: 10px;
+    height: 465px;
+  }
+  .client_bottomcover {
+    bottom: 0;
+  }
+  .button {
+    width: 8vw;
+    height: 3vw;
+    border: 1px solid var(--main-text-color);
+    font-size: 11px;
+  }
+  .client_container-margin {
+    padding: 0 15px 40px;
+    margin: 0 7vw;
+  }
+  .filterL {
+    left: -14px;
+    width: 25.7vw;
+  }
+  .filterR {
+    right: -14px;
+    width: 25.7vw;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .client_container {
+    padding: 66px 0 49px 0;
+  }
+  .client_arrow {
+    font-size: 24px;
+    left: -60px;
+    top: -5px;
+  }
+  .client_cardbox-card {
+    width: 27vw;
+    height: 55vw;
+  }
+  .client_cardbox-card-lines {
+    width: 27vw;
+    height: 52vw;
+  }
+  .client_bottomcover {
+    bottom: 0;
+  }
+  .button {
+    width: 81px;
+    height: 28px;
+    border: 2px solid var(--main-text-color);
+    font-size: 11px;
+  }
+  .client_container-margin {
+    padding: 0 14px 33px;
+    margin: 0 6vw;
+  }
+  .cardbox_text {
+    width: 22vw;
+    height: 30px;
+  }
+  .filterL {
+    left: -12px;
+    width: 25.5vw;
+  }
+  .filterR {
+    right: -12px;
+    width: 25.5vw;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .client_container {
+    padding: 70px 0 37px;
+  }
+  .client_arrow {
+    font-size: 22px;
+    left: -50px;
+    top: -5px;
+  }
+  .cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .cardbox {
+    margin: 0;
+  }
+  .client_cardbox-card {
+    width: 225px;
+    height: 417px;
+  }
+  .client_cardbox-card-lines {
+    width: 600px;
+    height: 400px;
+  }
+  .client_bottomcover {
+    bottom: 0;
+  }
+  .button {
+    width: 123px;
+    height: 50px;
+    border: 1px solid var(--main-text-color);
+    font-size: 16px;
+  }
+  .client_container-margin {
+    padding: 0 14px 33px;
+    margin: 0 15px;
+  }
+  .client_cardbox-div {
+    justify-content: center;
+    overflow: hidden;
+  }
+  .card img {
+    width: 32vw;
+  }
+  .filterL {
+    left: -12px;
+    width: 24vw;
+  }
+  .filterR {
+    right: -12px;
+    width: 24vw;
+  }
+}
+@media (min-width: 375px) and (max-width: 480px) {
+  .client_container {
+    padding: 70px 0 37px;
+  }
+  .client_arrow {
+    font-size: 20px;
+    left: -40px;
+    top: -5px;
+  }
+  .cardbox {
+    margin: 0;
+    display: none;
+  }
+  .client_cardbox-card {
+    width: 225px;
+    height: 417px;
+  }
+  .client_cardbox-card-lines {
+    width: 323px;
+    height: 388px;
+  }
+  .button {
+    width: 80px;
+    height: 30px;
+    border: 1px solid var(--main-text-color);
+    font-size: 12px;
+  }
+  .client_container-margin {
+    padding: 0 14px 14px;
+    margin: 0;
+    border: none;
+  }
+  .cardbox_text {
+    width: 127px;
+    height: 44px;
+    font-size: 21px;
+    top: 60px;
+  }
+  .client_bottomcover {
+    bottom: 0;
+  }
+  .client_topcover {
+    top: 0;
+  }
+  .buttons {
+    margin-top: 25px;
+  }
+  .client_cardbox-div {
+    justify-content: center;
+  }
+}

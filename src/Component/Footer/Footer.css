@@ -1,0 +1,121 @@
+.GetStarted_logo-container-border {
+  margin: 0 7.5vw;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+}
+.GetStarted_bottomborder {
+  border-bottom: 1px solid gray;
+}
+.GetStarted_logo {
+  color: var(--main-text-color);
+  font-size: 19vw;
+  letter-spacing: 10px;
+}
+.GetStarted_logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer_container {
+  margin: 0 7.5vw;
+  display: flex;
+  justify-content: space-between;
+  height: 65px;
+  align-items: center;
+}
+.footer_color {
+  color: var(--text-color);
+  font-size: 0.9vw;
+  font-family: "Neuehaasdisplay Roman", sans-serif;
+}
+.color {
+  color: var(--main-text-color);
+  margin-right: 5px;
+}
+@media (min-width: 1201px) and (max-width: 1440px) {
+  .footer_container {
+    margin: 0 7.5vw;
+  }
+  .footer_color {
+    font-size: 14px;
+  }
+  .GetStarted_logo-container-border {
+    margin: 0 7.5vw;
+  }
+  .GetStarted_logo-container {
+    height: 260px;
+    padding: 12px;
+  }
+  .GetStarted_logo {
+    font-size: clamp(210px, 17vw, 250px);
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .footer_container {
+    margin: 0 7vw;
+  }
+  .footer_color {
+    font-size: 11px;
+  }
+  .GetStarted_logo-container-border {
+    margin: 0 7vw;
+  }
+
+  .GetStarted_logo {
+    font-size: clamp(180px, 17vw, 220px);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .footer_container {
+    margin: 0 6vw;
+  }
+  .footer_color {
+    font-size: 10px;
+  }
+  .GetStarted_logo-container-border {
+    margin: 0 6vw;
+  }
+
+  .GetStarted_logo {
+    font-size: 18vw;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .footer_container {
+    margin: 0 15px;
+  }
+  .footer_color {
+    font-size: 10px;
+  }
+  .GetStarted_logo-container-border {
+    margin: 0 15px;
+  }
+
+  .GetStarted_logo {
+    font-size: 22vw;
+    letter-spacing: -1px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 480px) {
+  .footer_container {
+    margin: 0 15px;
+  }
+  .footer_color {
+    font-size: 10px;
+  }
+  .GetStarted_logo-container-border {
+    margin: 0;
+    border: none;
+    display: flex;
+    justify-content: center;
+  }
+
+  .GetStarted_logo {
+    font-size: clamp(86px, 21vw, 117px);
+    letter-spacing: -1px;
+  }
+}

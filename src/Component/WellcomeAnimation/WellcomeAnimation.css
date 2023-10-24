@@ -1,0 +1,115 @@
+.wellcome_container-animation-container {
+  width: 100%;
+  overflow: hidden;
+}
+.animation_container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: black;
+  position: relative;
+  position: fixed;
+  z-index: 5;
+  animation: changeWidth 1s forwards 2s;
+}
+.wellcome_container-animation {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 5;
+}
+.wellcome_animation-div {
+  width: 100%;
+  color: white;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.wellcome_animation-text {
+  display: flex;
+  justify-content: center;
+  letter-spacing: 2px;
+  width: 100%;
+  height: 50px;
+  animation: moveUp 2s forwards 1s;
+}
+.wellcome_animation-text-R {
+  font-size: 12px;
+  margin: 0 5px;
+  height: 50px;
+}
+.wellcome_container-animation-sidecolor {
+  position: absolute;
+  right: 0;
+  height: 100vh;
+  width: 10vw;
+  background-image: linear-gradient(
+    to top,
+    var(--main-text-color) 99%,
+    black 1%
+  );
+  background-size: 100% 200%;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  animation: changeHeight 2s forwards;
+  overflow: hidden;
+  z-index: 6;
+}
+
+@keyframes moveUp {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-80px);
+  }
+}
+
+@keyframes changeWidth {
+  0% {
+    width: 100vw;
+  }
+  100% {
+    width: 0;
+  }
+}
+
+@keyframes changeHeight {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 5vw;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1440px) {
+  .wellcome_container-animation {
+    left: 45%;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .wellcome_container-animation {
+    left: 45%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .wellcome_container-animation {
+    left: 45%;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .wellcome_container-animation {
+    left: 40%;
+  }
+}
+@media (min-width: 375px) and (max-width: 480px) {
+  .wellcome_container-animation {
+    left: 35%;
+  }
+}
