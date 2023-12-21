@@ -17,7 +17,7 @@ function App() {
   useEffect(() => {
     const timeout = setTimeout(() => {
       setDisplayMainDiv(false);
-    }, 2700);
+    }, 3000);
 
     return () => clearTimeout(timeout);
   }, []);

@@ -102,7 +102,7 @@
 
 .running_animation-text {
   width: 100%;
-  font-size: 130px;
+  font-size: 19.028vw;
   transform: scale(1.55);
   display: inline-block;
   white-space: nowrap;
@@ -113,7 +113,7 @@
 }
 .running_animation-text1 {
   width: 100%;
-  font-size: 130px;
+  font-size: 9.028vw;
   transform: scale(1.55);
   display: inline-block;
   white-space: nowrap;

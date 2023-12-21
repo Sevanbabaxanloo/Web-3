@@ -20,7 +20,7 @@ const Footer = () => {
         <div>
           <a href="https://twitter.com/callumrnoble">
             <h1 className="footer_color">
-              <spam className="color">/</spam>
+              <span className="color">/</span>
               SITE BY CALLUM NOBLE
             </h1>
           </a>
