@@ -1,6 +1,14 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
 * {
   margin: 0;
   padding: 0;
+}
+
+.font {
+  font-family: "Neuehaasdisplay Roman", sans-serif;
 }
 
 body {
@@ -33,3 +41,4 @@ a {
   border-radius: 10px;
   height: 2px;
 }
+
